@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<div id="login_area" class="all_login_area">
+<h4>Welcome to My First Bank</h4>
+
+<form class="this_form" action="">
+    <h3>Email</h3>
+    <input class="form-control" type="email" placeholder="email here">
+    <br>
+    <h3>Password</h3>
+    <input class="form-control" type="password" placeholder="Password">
+    <br>
+    <button class="btn btn-primary" id="login_btn">Enter</button>
+</form>
+</div>
+
+
+<div class="trnx_area" id="tranx_area">
+<div class="row">
+    <div class="col-md-4">
+        <div class="status_box deposite">
+            <h4>Deposite</h4>
+            <h2>$ <span id="currentDeposit">00</span>
+            </h2>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="status_box widthraw">
+            <h4>widthraw</h4>
+            <h2>$ <span id="currentWidthdraw">00</span></h2>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="status_box blance">
+            <h4>Blance</h4>
+            <h2>$ <span id="currentblance">1200</span></h2>
+        </div>
+    </div>
+</div>
+
+<div class="dep_width_box" id="">
+<div class="row">
+    <div class="col-md-6 ">
+        <div class="box_elements">
+        <h4>Deposite</h4>
+        <input type="text"  id="depositAmount" placeholder="enterthe Deposite amounts$" class="form-control">
+        <br>
+        <button type="submit"  class="btn btn-primary" id="addDeposit" >Deposite</button></div></div>
+    <div class="col-md-6 ">
+        <div class="box_elements">
+        <h4>widthraw</h4>
+        <input type="text"  id="widthrawAmount" placeholder="enterthe widthdraw amounts$" class="form-control">
+        <br>
+        <button type="submit"  class="btn btn-primary" id="addwidthraw">widthraw</button></div></div>
+</div>
+</div>
+
+
+
+
+    <script src="/index.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+</body>
+</html>

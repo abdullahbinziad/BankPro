@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.all_login_area{
+
+    margin: auto;
+    width: 60%;
+    min-height: 200px;
+   box-shadow: 5px 6px 13px gray;
+   padding: 40px;
+   border-radius: 6px;
+   margin-top: 40px;
+
+
+}
+.all_login_area h4{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+.trnx_area{
+    display: none;
+    margin: auto;
+    margin-top: 40px;
+    width: 70%;
+}
+.status_box{
+padding: 20px;
+margin: auto;
+box-shadow:10px 12px 10px gainsboro ;
+border-radius: 15px ;
+color: white;
+}
+.deposite{
+background-color: orange;
+}
+.widthraw{
+    background-color: rgba(181, 21, 230, 0.829);
+}
+.blance{
+    background-color: rgb(248, 15, 139);
+}
+
+.dep_width_box{
+    margin-top: 40px;
+    min-height: 200px;
+  
+}
+.box_elements{
+  min-width: 50px;
+  min-height: 60px;
+  padding: 30px;
+  margin: auto;
+  background-color: white;
+  border: 1px gray;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px gray;
+  
+ 
+}
+
